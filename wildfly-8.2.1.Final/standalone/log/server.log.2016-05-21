@@ -1,0 +1,272 @@
+2016-05-21 07:27:29,211 INFO  [org.jboss.modules] (main) JBoss Modules version 1.3.3.Final
+2016-05-21 07:27:30,615 INFO  [org.jboss.msc] (main) JBoss MSC version 1.2.2.Final
+2016-05-21 07:27:30,733 INFO  [org.jboss.as] (MSC service thread 1-7) JBAS015899: WildFly 8.2.1.Final "Tweek" starting
+2016-05-21 07:27:30,740 DEBUG [org.jboss.as.config] (MSC service thread 1-7) Configured system properties:
+	awt.toolkit = sun.awt.windows.WToolkit
+	file.encoding = Cp1252
+	file.encoding.pkg = sun.io
+	file.separator = \
+	java.awt.graphicsenv = sun.awt.Win32GraphicsEnvironment
+	java.awt.headless = true
+	java.awt.printerjob = sun.awt.windows.WPrinterJob
+	java.class.path = C:\App Web\wildfly-8.2.1.Final\jboss-modules.jar
+	java.class.version = 52.0
+	java.endorsed.dirs = C:\Program Files\Java\jre1.8.0_51\lib\endorsed
+	java.ext.dirs = C:\Program Files\Java\jre1.8.0_51\lib\ext;C:\Windows\Sun\Java\lib\ext
+	java.home = C:\Program Files\Java\jre1.8.0_51
+	java.io.tmpdir = C:\Users\Pedro\AppData\Local\Temp\
+	java.library.path = C:\Program Files\Java\jre1.8.0_51\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;native;C:/Program Files/Java/jre1.8.0_51/bin/server;C:/Program Files/Java/jre1.8.0_51/bin;C:/Program Files/Java/jre1.8.0_51/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\MATLAB\R2014a\runtime\win64;C:\Program Files\MATLAB\R2014a\bin;C:\Program Files\MATLAB\R2014a\polyspace\bin;C:\Program Files (x86)\Brackets\command;C:\Program Files (x86)\Skype\Phone\;C:\MongoDB\bin;C:\Program Files\nodejs\;%JAVA_HOME%\bin;C:\Users\Pedro\AppData\Roaming\npm;C:\eclipse JEE;;.
+	java.net.preferIPv4Stack = true
+	java.runtime.name = Java(TM) SE Runtime Environment
+	java.runtime.version = 1.8.0_51-b16
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 1.8
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = Oracle Corporation
+	java.vendor.url = http://java.oracle.com/
+	java.vendor.url.bug = http://bugreport.sun.com/bugreport/
+	java.version = 1.8.0_51
+	java.vm.info = mixed mode
+	java.vm.name = Java HotSpot(TM) 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 1.8
+	java.vm.vendor = Oracle Corporation
+	java.vm.version = 25.51-b03
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	javax.xml.datatype.DatatypeFactory = __redirected.__DatatypeFactory
+	javax.xml.parsers.DocumentBuilderFactory = __redirected.__DocumentBuilderFactory
+	javax.xml.parsers.SAXParserFactory = __redirected.__SAXParserFactory
+	javax.xml.stream.XMLEventFactory = __redirected.__XMLEventFactory
+	javax.xml.stream.XMLInputFactory = __redirected.__XMLInputFactory
+	javax.xml.stream.XMLOutputFactory = __redirected.__XMLOutputFactory
+	javax.xml.transform.TransformerFactory = __redirected.__TransformerFactory
+	javax.xml.validation.SchemaFactory:http://www.w3.org/2001/XMLSchema = __redirected.__SchemaFactory
+	javax.xml.xpath.XPathFactory:http://java.sun.com/jaxp/xpath/dom = __redirected.__XPathFactory
+	jboss.bind.address = localhost
+	jboss.bind.address.management = localhost
+	jboss.home.dir = C:\App Web\wildfly-8.2.1.Final
+	jboss.host.name = pedro
+	jboss.modules.dir = C:\App Web\wildfly-8.2.1.Final\modules
+	jboss.modules.system.pkgs = org.jboss.byteman
+	jboss.node.name = pedro
+	jboss.qualified.host.name = pedro
+	jboss.server.base.dir = C:\App Web\wildfly-8.2.1.Final\standalone
+	jboss.server.config.dir = C:\App Web\wildfly-8.2.1.Final\standalone\configuration
+	jboss.server.data.dir = C:\App Web\wildfly-8.2.1.Final\standalone\data
+	jboss.server.deploy.dir = C:\App Web\wildfly-8.2.1.Final\standalone\data\content
+	jboss.server.log.dir = C:\App Web\wildfly-8.2.1.Final\standalone\log
+	jboss.server.name = pedro
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = C:\App Web\wildfly-8.2.1.Final\standalone\tmp
+	line.separator = 
+
+	logging.configuration = file:/C:/App%20Web/wildfly-8.2.1.Final/standalone/configuration/logging.properties
+	module.path = C:/App Web/wildfly-8.2.1.Final/modules
+	org.jboss.boot.log.file = C:/App Web/wildfly-8.2.1.Final/standalone/log/boot.log
+	org.jboss.logmanager.nocolor = true
+	org.jboss.resolver.warning = true
+	org.xml.sax.driver = __redirected.__XMLReaderFactory
+	os.arch = amd64
+	os.name = Windows 8.1
+	os.version = 6.3
+	path.separator = ;
+	program.name = JBossTools: WildFly 8.x
+	sun.arch.data.model = 64
+	sun.boot.class.path = C:\Program Files\Java\jre1.8.0_51\lib\resources.jar;C:\Program Files\Java\jre1.8.0_51\lib\rt.jar;C:\Program Files\Java\jre1.8.0_51\lib\sunrsasign.jar;C:\Program Files\Java\jre1.8.0_51\lib\jsse.jar;C:\Program Files\Java\jre1.8.0_51\lib\jce.jar;C:\Program Files\Java\jre1.8.0_51\lib\charsets.jar;C:\Program Files\Java\jre1.8.0_51\lib\jfr.jar;C:\Program Files\Java\jre1.8.0_51\classes
+	sun.boot.library.path = C:\Program Files\Java\jre1.8.0_51\bin
+	sun.cpu.endian = little
+	sun.cpu.isalist = amd64
+	sun.desktop = windows
+	sun.io.unicode.encoding = UnicodeLittle
+	sun.java.command = org.jboss.modules.Main -mp C:/App Web/wildfly-8.2.1.Final/modules -jaxpmodule javax.xml.jaxp-provider org.jboss.as.standalone -b localhost --server-config=standalone.xml -Djboss.server.base.dir=C:\App Web\wildfly-8.2.1.Final\standalone
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = Cp1252
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.os.patch.level = 
+	sun.rmi.dgc.client.gcInterval = 3600000
+	sun.rmi.dgc.server.gcInterval = 3600000
+	user.country = EC
+	user.dir = C:\App Web\wildfly-8.2.1.Final\bin
+	user.home = C:\Users\Pedro
+	user.language = es
+	user.name = Pedro
+	user.script = 
+	user.timezone = America/Bogota
+	user.variant = 
+2016-05-21 07:27:30,741 DEBUG [org.jboss.as.config] (MSC service thread 1-7) VM Arguments: -Dprogram.name=JBossTools: WildFly 8.x -Xms64m -Xmx512m -XX:MaxPermSize=256m -Dorg.jboss.resolver.warning=true -Djava.net.preferIPv4Stack=true -Dsun.rmi.dgc.client.gcInterval=3600000 -Dsun.rmi.dgc.server.gcInterval=3600000 -Djboss.modules.system.pkgs=org.jboss.byteman -Djava.awt.headless=true -Dorg.jboss.boot.log.file=C:/App Web/wildfly-8.2.1.Final/standalone/log/boot.log -Dlogging.configuration=file:/C:/App%20Web/wildfly-8.2.1.Final/standalone/configuration/logging.properties -Djboss.home.dir=C:/App Web/wildfly-8.2.1.Final -Dorg.jboss.logmanager.nocolor=true -Djboss.bind.address.management=localhost -Dfile.encoding=Cp1252 
+2016-05-21 07:27:37,322 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) JBAS015003: Found CalculadoraJSF.war in deployment directory. To trigger deployment create a file called CalculadoraJSF.war.dodeploy
+2016-05-21 07:27:37,323 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) JBAS015003: Found LocaleNet.war in deployment directory. To trigger deployment create a file called LocaleNet.war.dodeploy
+2016-05-21 07:27:37,362 INFO  [org.jboss.as.server] (Controller Boot Thread) JBAS015888: Creating http management service using socket-binding (management-http)
+2016-05-21 07:27:37,425 INFO  [org.xnio] (MSC service thread 1-10) XNIO version 3.3.0.Final
+2016-05-21 07:27:37,432 INFO  [org.xnio.nio] (MSC service thread 1-10) XNIO NIO Implementation Version 3.3.0.Final
+2016-05-21 07:27:37,577 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 45) JBAS013171: Activating Security Subsystem
+2016-05-21 07:27:37,578 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 46) JBAS010153: Node identifier property is set to the default value. Please make sure it is unique.
+2016-05-21 07:27:37,581 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 32) JBAS010280: Activating Infinispan subsystem.
+2016-05-21 07:27:37,585 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 40) JBAS011800: Activating Naming Subsystem
+2016-05-21 07:27:37,587 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 31) WFLYIO001: Worker 'default' has auto-configured to 16 core threads with 128 task threads based on your 8 available processors
+2016-05-21 07:27:37,589 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 38) JBAS012615: Activated the following JSF Implementations: [main]
+2016-05-21 07:27:37,639 INFO  [org.jboss.as.security] (MSC service thread 1-11) JBAS013170: Current PicketBox version=4.0.21.Final
+2016-05-21 07:27:37,650 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 48) JBAS015537: Activating WebServices Extension
+2016-05-21 07:27:37,721 INFO  [org.jboss.as.connector.logging] (MSC service thread 1-6) JBAS010408: Starting JCA Subsystem (IronJacamar 1.1.9.Final)
+2016-05-21 07:27:37,800 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-7) JBAS017502: Undertow 1.1.8.Final starting
+2016-05-21 07:27:37,800 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 47) JBAS017502: Undertow 1.1.8.Final starting
+2016-05-21 07:27:38,638 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 47) JBAS017527: Creating file handler for path C:\App Web\wildfly-8.2.1.Final/welcome-content
+2016-05-21 07:27:38,678 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 27) JBAS010403: Deploying JDBC-compliant driver class org.h2.Driver (version 1.3)
+2016-05-21 07:27:38,681 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-8) JBAS010417: Started Driver service with driver-name = h2
+2016-05-21 07:27:39,084 INFO  [org.jboss.as.naming] (MSC service thread 1-1) JBAS011802: Starting Naming Service
+2016-05-21 07:27:39,084 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-11) JBAS015400: Bound mail session [java:jboss/mail/Default]
+2016-05-21 07:27:39,170 INFO  [org.jboss.remoting] (MSC service thread 1-7) JBoss Remoting version 4.0.7.Final
+2016-05-21 07:27:39,172 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) JBAS017525: Started server default-server.
+2016-05-21 07:27:39,244 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-6) JBAS017531: Host default-host starting
+2016-05-21 07:27:39,334 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-12) JBAS017519: Undertow HTTP listener default listening on localhost/127.0.0.1:8080
+2016-05-21 07:27:39,842 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) JBAS015876: Starting deployment of "LocaleNet.war" (runtime-name: "LocaleNet.war")
+2016-05-21 07:27:39,842 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-9) JBAS015876: Starting deployment of "CalculadoraJSF.war" (runtime-name: "CalculadoraJSF.war")
+2016-05-21 07:27:39,851 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-12) JBAS015012: Started FileSystemDeploymentService for directory C:\App Web\wildfly-8.2.1.Final\standalone\deployments
+2016-05-21 07:27:40,218 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-11) JBAS010400: Bound data source [java:jboss/datasources/ExampleDS]
+2016-05-21 07:27:41,124 INFO  [org.jboss.ws.common.management] (MSC service thread 1-4) JBWS022052: Starting JBoss Web Services - Stack CXF Server 4.3.2.Final
+2016-05-21 07:27:42,885 INFO  [javax.enterprise.resource.webcontainer.jsf.config] (MSC service thread 1-4) Inicializando Mojarra 2.2.8-jbossorg-1 20140822-1131 para el contexto '/CalculadoraJSF'
+2016-05-21 07:27:42,942 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-7) JBAS017534: Registered web context: /LocaleNet
+2016-05-21 07:27:43,555 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-4) JBAS017534: Registered web context: /CalculadoraJSF
+2016-05-21 07:27:43,604 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 28) JBAS018559: Deployed "LocaleNet.war" (runtime-name : "LocaleNet.war")
+2016-05-21 07:27:43,604 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 28) JBAS018559: Deployed "CalculadoraJSF.war" (runtime-name : "CalculadoraJSF.war")
+2016-05-21 07:27:43,786 INFO  [org.jboss.as] (Controller Boot Thread) JBAS015961: Http management interface listening on http://127.0.0.1:9990/management
+2016-05-21 07:27:43,787 INFO  [org.jboss.as] (Controller Boot Thread) JBAS015951: Admin console listening on http://127.0.0.1:9990
+2016-05-21 07:27:43,787 INFO  [org.jboss.as] (Controller Boot Thread) JBAS015874: WildFly 8.2.1.Final "Tweek" started in 15607ms - Started 321 of 382 services (102 services are lazy, passive or on-demand)
+2016-05-21 08:13:25,489 INFO  [org.jboss.modules] (main) JBoss Modules version 1.3.3.Final
+2016-05-21 08:13:25,675 INFO  [org.jboss.msc] (main) JBoss MSC version 1.2.2.Final
+2016-05-21 08:13:25,734 INFO  [org.jboss.as] (MSC service thread 1-6) JBAS015899: WildFly 8.2.1.Final "Tweek" starting
+2016-05-21 08:13:25,739 DEBUG [org.jboss.as.config] (MSC service thread 1-6) Configured system properties:
+	awt.toolkit = sun.awt.windows.WToolkit
+	file.encoding = Cp1252
+	file.encoding.pkg = sun.io
+	file.separator = \
+	java.awt.graphicsenv = sun.awt.Win32GraphicsEnvironment
+	java.awt.headless = true
+	java.awt.printerjob = sun.awt.windows.WPrinterJob
+	java.class.path = C:\App Web\wildfly-8.2.1.Final\jboss-modules.jar
+	java.class.version = 52.0
+	java.endorsed.dirs = C:\Program Files\Java\jre1.8.0_51\lib\endorsed
+	java.ext.dirs = C:\Program Files\Java\jre1.8.0_51\lib\ext;C:\Windows\Sun\Java\lib\ext
+	java.home = C:\Program Files\Java\jre1.8.0_51
+	java.io.tmpdir = C:\Users\Pedro\AppData\Local\Temp\
+	java.library.path = C:\Program Files\Java\jre1.8.0_51\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;native;C:/Program Files/Java/jre1.8.0_51/bin/server;C:/Program Files/Java/jre1.8.0_51/bin;C:/Program Files/Java/jre1.8.0_51/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\MATLAB\R2014a\runtime\win64;C:\Program Files\MATLAB\R2014a\bin;C:\Program Files\MATLAB\R2014a\polyspace\bin;C:\Program Files (x86)\Brackets\command;C:\Program Files (x86)\Skype\Phone\;C:\MongoDB\bin;C:\Program Files\nodejs\;%JAVA_HOME%\bin;C:\Users\Pedro\AppData\Roaming\npm;C:\eclipse JEE;;.
+	java.net.preferIPv4Stack = true
+	java.runtime.name = Java(TM) SE Runtime Environment
+	java.runtime.version = 1.8.0_51-b16
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 1.8
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = Oracle Corporation
+	java.vendor.url = http://java.oracle.com/
+	java.vendor.url.bug = http://bugreport.sun.com/bugreport/
+	java.version = 1.8.0_51
+	java.vm.info = mixed mode
+	java.vm.name = Java HotSpot(TM) 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 1.8
+	java.vm.vendor = Oracle Corporation
+	java.vm.version = 25.51-b03
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	javax.xml.datatype.DatatypeFactory = __redirected.__DatatypeFactory
+	javax.xml.parsers.DocumentBuilderFactory = __redirected.__DocumentBuilderFactory
+	javax.xml.parsers.SAXParserFactory = __redirected.__SAXParserFactory
+	javax.xml.stream.XMLEventFactory = __redirected.__XMLEventFactory
+	javax.xml.stream.XMLInputFactory = __redirected.__XMLInputFactory
+	javax.xml.stream.XMLOutputFactory = __redirected.__XMLOutputFactory
+	javax.xml.transform.TransformerFactory = __redirected.__TransformerFactory
+	javax.xml.validation.SchemaFactory:http://www.w3.org/2001/XMLSchema = __redirected.__SchemaFactory
+	javax.xml.xpath.XPathFactory:http://java.sun.com/jaxp/xpath/dom = __redirected.__XPathFactory
+	jboss.bind.address = localhost
+	jboss.bind.address.management = localhost
+	jboss.home.dir = C:\App Web\wildfly-8.2.1.Final
+	jboss.host.name = pedro
+	jboss.modules.dir = C:\App Web\wildfly-8.2.1.Final\modules
+	jboss.modules.system.pkgs = org.jboss.byteman
+	jboss.node.name = pedro
+	jboss.qualified.host.name = pedro
+	jboss.server.base.dir = C:\App Web\wildfly-8.2.1.Final\standalone
+	jboss.server.config.dir = C:\App Web\wildfly-8.2.1.Final\standalone\configuration
+	jboss.server.data.dir = C:\App Web\wildfly-8.2.1.Final\standalone\data
+	jboss.server.deploy.dir = C:\App Web\wildfly-8.2.1.Final\standalone\data\content
+	jboss.server.log.dir = C:\App Web\wildfly-8.2.1.Final\standalone\log
+	jboss.server.name = pedro
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = C:\App Web\wildfly-8.2.1.Final\standalone\tmp
+	line.separator = 
+
+	logging.configuration = file:/C:/App%20Web/wildfly-8.2.1.Final/standalone/configuration/logging.properties
+	module.path = C:/App Web/wildfly-8.2.1.Final/modules
+	org.jboss.boot.log.file = C:/App Web/wildfly-8.2.1.Final/standalone/log/boot.log
+	org.jboss.logmanager.nocolor = true
+	org.jboss.resolver.warning = true
+	org.xml.sax.driver = __redirected.__XMLReaderFactory
+	os.arch = amd64
+	os.name = Windows 8.1
+	os.version = 6.3
+	path.separator = ;
+	program.name = JBossTools: WildFly 8.x
+	sun.arch.data.model = 64
+	sun.boot.class.path = C:\Program Files\Java\jre1.8.0_51\lib\resources.jar;C:\Program Files\Java\jre1.8.0_51\lib\rt.jar;C:\Program Files\Java\jre1.8.0_51\lib\sunrsasign.jar;C:\Program Files\Java\jre1.8.0_51\lib\jsse.jar;C:\Program Files\Java\jre1.8.0_51\lib\jce.jar;C:\Program Files\Java\jre1.8.0_51\lib\charsets.jar;C:\Program Files\Java\jre1.8.0_51\lib\jfr.jar;C:\Program Files\Java\jre1.8.0_51\classes
+	sun.boot.library.path = C:\Program Files\Java\jre1.8.0_51\bin
+	sun.cpu.endian = little
+	sun.cpu.isalist = amd64
+	sun.desktop = windows
+	sun.io.unicode.encoding = UnicodeLittle
+	sun.java.command = org.jboss.modules.Main -mp C:/App Web/wildfly-8.2.1.Final/modules -jaxpmodule javax.xml.jaxp-provider org.jboss.as.standalone -b localhost --server-config=standalone.xml -Djboss.server.base.dir=C:\App Web\wildfly-8.2.1.Final\standalone
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = Cp1252
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.os.patch.level = 
+	sun.rmi.dgc.client.gcInterval = 3600000
+	sun.rmi.dgc.server.gcInterval = 3600000
+	user.country = EC
+	user.dir = C:\App Web\wildfly-8.2.1.Final\bin
+	user.home = C:\Users\Pedro
+	user.language = es
+	user.name = Pedro
+	user.script = 
+	user.timezone = America/Bogota
+	user.variant = 
+2016-05-21 08:13:25,740 DEBUG [org.jboss.as.config] (MSC service thread 1-6) VM Arguments: -Dprogram.name=JBossTools: WildFly 8.x -Xms64m -Xmx512m -XX:MaxPermSize=256m -Dorg.jboss.resolver.warning=true -Djava.net.preferIPv4Stack=true -Dsun.rmi.dgc.client.gcInterval=3600000 -Dsun.rmi.dgc.server.gcInterval=3600000 -Djboss.modules.system.pkgs=org.jboss.byteman -Djava.awt.headless=true -Dorg.jboss.boot.log.file=C:/App Web/wildfly-8.2.1.Final/standalone/log/boot.log -Dlogging.configuration=file:/C:/App%20Web/wildfly-8.2.1.Final/standalone/configuration/logging.properties -Djboss.home.dir=C:/App Web/wildfly-8.2.1.Final -Dorg.jboss.logmanager.nocolor=true -Djboss.bind.address.management=localhost -Dfile.encoding=Cp1252 
+2016-05-21 08:13:26,624 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) JBAS015003: Found CalculadoraJSF.war in deployment directory. To trigger deployment create a file called CalculadoraJSF.war.dodeploy
+2016-05-21 08:13:26,625 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) JBAS015003: Found LocaleNet.war in deployment directory. To trigger deployment create a file called LocaleNet.war.dodeploy
+2016-05-21 08:13:26,645 INFO  [org.jboss.as.server] (Controller Boot Thread) JBAS015888: Creating http management service using socket-binding (management-http)
+2016-05-21 08:13:26,663 INFO  [org.xnio] (MSC service thread 1-11) XNIO version 3.3.0.Final
+2016-05-21 08:13:26,671 INFO  [org.xnio.nio] (MSC service thread 1-11) XNIO NIO Implementation Version 3.3.0.Final
+2016-05-21 08:13:26,710 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 46) JBAS010153: Node identifier property is set to the default value. Please make sure it is unique.
+2016-05-21 08:13:26,711 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 45) JBAS013171: Activating Security Subsystem
+2016-05-21 08:13:26,715 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 38) JBAS012615: Activated the following JSF Implementations: [main]
+2016-05-21 08:13:26,725 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 32) JBAS010280: Activating Infinispan subsystem.
+2016-05-21 08:13:26,732 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 48) JBAS015537: Activating WebServices Extension
+2016-05-21 08:13:26,737 INFO  [org.jboss.as.security] (MSC service thread 1-7) JBAS013170: Current PicketBox version=4.0.21.Final
+2016-05-21 08:13:26,739 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 40) JBAS011800: Activating Naming Subsystem
+2016-05-21 08:13:26,742 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 31) WFLYIO001: Worker 'default' has auto-configured to 16 core threads with 128 task threads based on your 8 available processors
+2016-05-21 08:13:26,748 INFO  [org.jboss.as.connector.logging] (MSC service thread 1-2) JBAS010408: Starting JCA Subsystem (IronJacamar 1.1.9.Final)
+2016-05-21 08:13:26,760 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 47) JBAS017502: Undertow 1.1.8.Final starting
+2016-05-21 08:13:26,767 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-13) JBAS017502: Undertow 1.1.8.Final starting
+2016-05-21 08:13:26,771 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 27) JBAS010403: Deploying JDBC-compliant driver class org.h2.Driver (version 1.3)
+2016-05-21 08:13:26,788 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-4) JBAS010417: Started Driver service with driver-name = h2
+2016-05-21 08:13:26,807 INFO  [org.jboss.as.naming] (MSC service thread 1-4) JBAS011802: Starting Naming Service
+2016-05-21 08:13:26,808 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-8) JBAS015400: Bound mail session [java:jboss/mail/Default]
+2016-05-21 08:13:26,895 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 47) JBAS017527: Creating file handler for path C:\App Web\wildfly-8.2.1.Final/welcome-content
+2016-05-21 08:13:27,085 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-14) JBAS017525: Started server default-server.
+2016-05-21 08:13:27,085 INFO  [org.jboss.remoting] (MSC service thread 1-11) JBoss Remoting version 4.0.7.Final
+2016-05-21 08:13:27,095 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-14) JBAS017531: Host default-host starting
+2016-05-21 08:13:27,156 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-10) JBAS017519: Undertow HTTP listener default listening on localhost/127.0.0.1:8080
+2016-05-21 08:13:27,230 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-16) JBAS015012: Started FileSystemDeploymentService for directory C:\App Web\wildfly-8.2.1.Final\standalone\deployments
+2016-05-21 08:13:27,235 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) JBAS015876: Starting deployment of "CalculadoraJSF.war" (runtime-name: "CalculadoraJSF.war")
+2016-05-21 08:13:27,235 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-15) JBAS015876: Starting deployment of "LocaleNet.war" (runtime-name: "LocaleNet.war")
+2016-05-21 08:13:27,269 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-3) JBAS010400: Bound data source [java:jboss/datasources/ExampleDS]
+2016-05-21 08:13:27,577 INFO  [org.jboss.ws.common.management] (MSC service thread 1-10) JBWS022052: Starting JBoss Web Services - Stack CXF Server 4.3.2.Final
+2016-05-21 08:13:27,895 INFO  [javax.enterprise.resource.webcontainer.jsf.config] (MSC service thread 1-11) Inicializando Mojarra 2.2.8-jbossorg-1 20140822-1131 para el contexto '/CalculadoraJSF'
+2016-05-21 08:13:27,905 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-15) JBAS017534: Registered web context: /LocaleNet
+2016-05-21 08:13:28,339 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-11) JBAS017534: Registered web context: /CalculadoraJSF
+2016-05-21 08:13:28,369 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 28) JBAS018559: Deployed "LocaleNet.war" (runtime-name : "LocaleNet.war")
+2016-05-21 08:13:28,370 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 28) JBAS018559: Deployed "CalculadoraJSF.war" (runtime-name : "CalculadoraJSF.war")
+2016-05-21 08:13:28,463 INFO  [org.jboss.as] (Controller Boot Thread) JBAS015961: Http management interface listening on http://127.0.0.1:9990/management
+2016-05-21 08:13:28,464 INFO  [org.jboss.as] (Controller Boot Thread) JBAS015951: Admin console listening on http://127.0.0.1:9990
+2016-05-21 08:13:28,464 INFO  [org.jboss.as] (Controller Boot Thread) JBAS015874: WildFly 8.2.1.Final "Tweek" started in 3197ms - Started 321 of 382 services (102 services are lazy, passive or on-demand)

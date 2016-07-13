@@ -1,0 +1,53 @@
+package webservices;
+
+import javax.jws.WebMethod;
+import javax.jws.WebService;
+
+import modelo.Libro;
+import servicios.ServicioLibro;
+
+@WebService()
+public class LibroCRUD {
+	
+	ServicioLibro servicioLibro = new ServicioLibro();
+	
+	@WebMethod()
+	public String crearLibro(String autor, String titulo, int stock){
+		
+		Libro nuevoLibro = new Libro(autor,titulo,stock);
+		servicioLibro.crear(nuevoLibro);
+		
+		return "Libro creado!!!";
+	}
+	
+	@WebMethod()
+	public String editarLibro(int idLibro, String autor, String titulo, int stock){
+		
+		Libro libroEditar = servicioLibro.findByIdLibro(idLibro);
+		
+		if(!autor.equals(null)){
+			libroEditar.setAutor(autor);
+		}
+		if(!titulo.equals(null)){
+			libroEditar.setTitulo(titulo);;
+		}
+		if(stock >= 0){
+			libroEditar.setStock(stock);;
+		}
+		
+		servicioLibro.editar(libroEditar);
+		return "Libro editado!!!";
+	}
+	
+	@WebMethod()
+	public String eliminarLibro(int idLibro){
+		
+		Libro libroEliminar = servicioLibro.findByIdLibro(idLibro);
+		
+		servicioLibro.eliminar(libroEliminar);
+		
+		return "Libro eliminado!!!";
+	}
+	
+
+}

@@ -1,0 +1,40 @@
+2016-05-14 13:57:34,797 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 45) JBAS013171: Activating Security Subsystem
+2016-05-14 13:57:34,803 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 46) JBAS010153: Node identifier property is set to the default value. Please make sure it is unique.
+2016-05-14 13:57:34,812 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 32) JBAS010280: Activating Infinispan subsystem.
+2016-05-14 13:57:34,812 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 40) JBAS011800: Activating Naming Subsystem
+2016-05-14 13:57:34,836 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 48) JBAS015537: Activating WebServices Extension
+2016-05-14 13:57:34,835 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 38) JBAS012615: Activated the following JSF Implementations: [main]
+2016-05-14 13:57:34,848 INFO  [org.jboss.as.security] (MSC service thread 1-16) JBAS013170: Current PicketBox version=4.0.21.Final
+2016-05-14 13:57:34,934 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 31) WFLYIO001: Worker 'default' has auto-configured to 16 core threads with 128 task threads based on your 8 available processors
+2016-05-14 13:57:35,175 INFO  [org.jboss.as.connector.logging] (MSC service thread 1-4) JBAS010408: Starting JCA Subsystem (IronJacamar 1.1.9.Final)
+2016-05-14 13:57:35,582 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-12) JBAS017502: Undertow 1.1.8.Final starting
+2016-05-14 13:57:35,582 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 47) JBAS017502: Undertow 1.1.8.Final starting
+2016-05-14 13:57:36,230 INFO  [org.jboss.remoting] (MSC service thread 1-10) JBoss Remoting version 4.0.7.Final
+2016-05-14 13:57:36,707 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 47) JBAS017527: Creating file handler for path C:\App Web\wildfly-8.2.1.Final/welcome-content
+2016-05-14 13:57:36,752 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-13) JBAS017525: Started server default-server.
+2016-05-14 13:57:36,761 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-14) JBAS017531: Host default-host starting
+2016-05-14 13:57:36,765 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 27) JBAS010403: Deploying JDBC-compliant driver class org.h2.Driver (version 1.3)
+2016-05-14 13:57:36,767 INFO  [org.jboss.as.naming] (MSC service thread 1-9) JBAS011802: Starting Naming Service
+2016-05-14 13:57:36,769 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-14) JBAS015400: Bound mail session [java:jboss/mail/Default]
+2016-05-14 13:57:36,773 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-2) JBAS010417: Started Driver service with driver-name = h2
+2016-05-14 13:57:36,929 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-16) JBAS017519: Undertow HTTP listener default listening on /127.0.0.1:8080
+2016-05-14 13:57:38,006 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-16) JBAS015012: Started FileSystemDeploymentService for directory C:\App Web\wildfly-8.2.1.Final\standalone\deployments
+2016-05-14 13:57:38,018 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) JBAS015876: Starting deployment of "CalculadoraJSF.war" (runtime-name: "CalculadoraJSF.war")
+2016-05-14 13:57:38,072 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-7) JBAS010400: Bound data source [java:jboss/datasources/ExampleDS]
+2016-05-14 13:57:39,393 INFO  [org.jboss.ws.common.management] (MSC service thread 1-13) JBWS022052: Starting JBoss Web Services - Stack CXF Server 4.3.2.Final
+2016-05-14 13:57:40,927 INFO  [javax.enterprise.resource.webcontainer.jsf.config] (MSC service thread 1-10) Inicializando Mojarra 2.2.8-jbossorg-1 20140822-1131 para el contexto '/CalculadoraJSF'
+2016-05-14 13:57:41,813 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-10) JBAS017534: Registered web context: /CalculadoraJSF
+2016-05-14 13:57:41,842 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 28) JBAS018559: Deployed "CalculadoraJSF.war" (runtime-name : "CalculadoraJSF.war")
+2016-05-14 13:57:42,031 INFO  [org.jboss.as] (Controller Boot Thread) JBAS015961: Http management interface listening on http://127.0.0.1:9990/management
+2016-05-14 13:57:42,032 INFO  [org.jboss.as] (Controller Boot Thread) JBAS015951: Admin console listening on http://127.0.0.1:9990
+2016-05-14 13:57:42,033 INFO  [org.jboss.as] (Controller Boot Thread) JBAS015874: WildFly 8.2.1.Final "Tweek" started in 19968ms - Started 253 of 308 services (92 services are lazy, passive or on-demand)
+2016-05-14 14:07:24,757 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-12) JBAS017535: Unregistered web context: /CalculadoraJSF
+2016-05-14 14:07:24,768 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-16) JBAS017532: Host default-host stopping
+2016-05-14 14:07:24,770 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-2) JBAS010409: Unbound data source [java:jboss/datasources/ExampleDS]
+2016-05-14 14:07:24,772 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-13) JBAS010418: Stopped Driver service with driver-name = h2
+2016-05-14 14:07:24,793 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-11) JBAS017521: Undertow HTTP listener default suspending
+2016-05-14 14:07:24,797 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-11) JBAS017520: Undertow HTTP listener default stopped, was bound to /127.0.0.1:8080
+2016-05-14 14:07:24,799 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-6) JBAS017506: Undertow 1.1.8.Final stopping
+2016-05-14 14:07:24,844 INFO  [org.hibernate.validator.internal.util.Version] (MSC service thread 1-2) HV000001: Hibernate Validator 5.1.3.Final
+2016-05-14 14:07:24,892 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-2) JBAS015877: Stopped deployment CalculadoraJSF.war (runtime-name: CalculadoraJSF.war) in 148ms
+2016-05-14 14:07:24,894 INFO  [org.jboss.as] (MSC service thread 1-5) JBAS015950: WildFly 8.2.1.Final "Tweek" stopped in 143ms

@@ -1,0 +1,1 @@
+<a href="http://localhost:8080/LocalesNet/admLocal/administraLocales.jsp">Administración de Locales</a>

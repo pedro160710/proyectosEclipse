@@ -1,0 +1,16 @@
+package junittest;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+import conexion.ConexionBaseDatos;
+
+public class ConexionBaseDatosTest {
+
+	@Test
+	public void test() {
+		ConexionBaseDatos conexionBD = new ConexionBaseDatos();
+	}
+
+}

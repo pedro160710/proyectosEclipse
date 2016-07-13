@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;configuracionrest.Configuracion&apos; to &apos;AppConfig&apos;&#x0D;&#x0A;- Original project: &apos;PruebaRESTMoviles&apos;&#x0D;&#x0A;- Original element: &apos;configuracionrest.Configuracion&apos;&#x0D;&#x0A;- Renamed element: &apos;configuracionrest.AppConfig&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Configuracion&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;configuracionrest{Configuracion.java[Configuracion" matchStrategy="1" name="AppConfig" qualified="false" references="true" similarDeclarations="false" stamp="1467675088289" textual="false" version="1.0"/>
+</session>
