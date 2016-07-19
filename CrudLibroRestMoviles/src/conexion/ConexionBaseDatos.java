@@ -27,12 +27,14 @@ public class ConexionBaseDatos {
 		 */
 		return con;
 	}
-/**
- * Metodo que permite cerrar una conexion, si no puede cerrar \
- * la conexion entonces mostrara las razones por la que no se puede realizar.
- * N cierra la conexion si tiene alguna transaccion pendiente
- * @param con
- */
+
+	/**
+	 * Metodo que permite cerrar una conexion, si no puede cerrar \ la conexion
+	 * entonces mostrara las razones por la que no se puede realizar. N cierra
+	 * la conexion si tiene alguna transaccion pendiente
+	 * 
+	 * @param con
+	 */
 	public static void cerrarConexion(Connection con) {
 		try {
 			con.close();

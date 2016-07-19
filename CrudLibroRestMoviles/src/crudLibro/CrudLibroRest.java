@@ -37,6 +37,7 @@ public class CrudLibroRest {
 				libro.setAutor(libros.getString("autor"));
 				libro.setTitulo(libros.getString("titulo"));
 				libro.setStock(libros.getInt("stock"));
+				libro.setId(libros.getInt("id"));
 			}
 			ConexionBaseDatos.cerrarConexion(con);
 		} catch (Exception e) {
@@ -60,6 +61,7 @@ public class CrudLibroRest {
 				libro.setAutor(libros.getString("autor"));
 				libro.setTitulo(libros.getString("titulo"));
 				libro.setStock(libros.getInt("stock"));
+				libro.setId(libros.getInt("id"));
 			}
 			ConexionBaseDatos.cerrarConexion(con);
 		} catch (Exception e) {
@@ -84,6 +86,7 @@ public class CrudLibroRest {
 				libro.setAutor(rs.getString("autor"));
 				libro.setTitulo(rs.getString("titulo"));
 				libro.setStock(rs.getInt("stock"));
+				libro.setId(rs.getInt("id"));
 				librosConsultados.add(libro);
 			}
 			ConexionBaseDatos.cerrarConexion(con);
