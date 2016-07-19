@@ -201,3 +201,7 @@
 
 !ENTRY org.jboss.ide.eclipse.as.wtp.core 1 16973825 2016-07-18 17:54:38.854
 !MESSAGE Server processes have been terminated.
+!SESSION 
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 0 2016-07-18 22:59:18.891
+!MESSAGE Module CrudLibroRestMoviles on WildFly 8.x not yet fully deployed. Waiting...

@@ -25,9 +25,10 @@ public class CrudLibroRest {
 //CONSULTAR LIBRO POR NOMBRE
 	@GET
 	@Path("consultarLibroTitulo")
-	public Libro consultarLibroNombre(@QueryParam("varTitulo") String tituloLibro) {
+	public List<Libro> consultarLibroNombre(@QueryParam("varTitulo") String tituloLibro) {
 		Connection con = (Connection) ConexionBaseDatos.crearConexion();
 		Libro libro = new Libro();
+		List<Libro> librosRetorno = new ArrayList<Libro>();
 		try {
 			PreparedStatement ps = (PreparedStatement) con
 					.prepareStatement("select * from libro where titulo=? ");
@@ -38,20 +39,22 @@ public class CrudLibroRest {
 				libro.setTitulo(libros.getString("titulo"));
 				libro.setStock(libros.getInt("stock"));
 				libro.setId(libros.getInt("id"));
+				librosRetorno.add(libro);
 			}
 			ConexionBaseDatos.cerrarConexion(con);
 		} catch (Exception e) {
 			System.out.println("no se pudo consultar el libro " + e);
 			e.printStackTrace();
 		}
-		return libro;
+		return librosRetorno;
 	}
 	// CONSULTAR LIBRO
 	@GET
 	@Path("consultarLibro")
-	public Libro consultarLibro(@QueryParam("varId") String idLibro) {
+	public List<Libro> consultarLibro(@QueryParam("varId") String idLibro) {
 		Connection con = (Connection) ConexionBaseDatos.crearConexion();
 		Libro libro = new Libro();
+		List<Libro> librosRetorno = new ArrayList<Libro>();
 		try {
 			PreparedStatement ps = (PreparedStatement) con
 					.prepareStatement("select * from libro where id=? ");
@@ -62,13 +65,14 @@ public class CrudLibroRest {
 				libro.setTitulo(libros.getString("titulo"));
 				libro.setStock(libros.getInt("stock"));
 				libro.setId(libros.getInt("id"));
+				librosRetorno.add(libro);
 			}
 			ConexionBaseDatos.cerrarConexion(con);
 		} catch (Exception e) {
 			System.out.println("no se pudo consultar el libro " + e);
 			e.printStackTrace();
 		}
-		return libro;
+		return librosRetorno;
 	}
 
 	// CONSULTAR LIBROS

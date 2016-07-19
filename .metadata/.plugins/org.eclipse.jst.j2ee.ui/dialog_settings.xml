@@ -1,8 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
+	<item value="true" key="J2EE_EXPORT_OVERWRITE"/>
+	<item value="false" key="J2EE_EXPORT_SOURCE"/>
 	<list key="MRU_RUNTIME_STORE">
 		<item value="WildFly 8.x Runtime webSoap"/>
 		<item value="WildFly 8.x Runtime Moviles"/>
 		<item value="WildFly 8.x Runtime"/>
+	</list>
+	<list key="J2EE_EXPORT_JST_WEB">
+		<item value="C:\informacion w 10 restante\App Web\wildfly-8.2.1.Final\standalone\CrudLibroRestMoviles.war"/>
 	</list>
 </section>
