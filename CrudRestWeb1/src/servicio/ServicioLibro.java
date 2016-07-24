@@ -1,5 +1,7 @@
 package servicio;
 
+import java.util.List;
+
 import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;
 import javax.persistence.Persistence;
@@ -78,6 +80,53 @@ public class ServicioLibro {
 		}
 
 		return libroEncontrado;
+	}
+	/**
+	 *busquda por titulo
+	 * @param titulo
+	 * @return
+	 */
+	public Libro findByTituloLibro(String titulo) {
+
+		EntityManager em = emf.createEntityManager();
+		Libro libroEncontrado = new Libro();
+		try {
+			// Connection connection = em.unwrap(Connection.class);
+			em.getTransaction().begin();
+			Query query = em.createNamedQuery("Libro.finByTituloLibro",
+					Libro.class);
+			query.setParameter("tituloLibro", titulo);
+			libroEncontrado = (Libro) query.getSingleResult();
+
+			em.getTransaction().commit();
+		} catch (Exception e) {
+			System.out.println("Error al consultar Libro por nombre");
+		} finally {
+			em.close();
+		}
+
+		return libroEncontrado;
+	}
+	public List<Libro> findLibros() {
+
+		EntityManager em = emf.createEntityManager();
+		Libro libroEncontrado = new Libro();
+		List<Libro> libros= null;
+		try {
+			// Connection connection = em.unwrap(Connection.class);
+			em.getTransaction().begin();
+			Query query = em.createNamedQuery("Libro.findLibros",
+					Libro.class);
+			libros =  query.getResultList();
+
+			em.getTransaction().commit();
+		} catch (Exception e) {
+			System.out.println("Error al consultar Libro");
+		} finally {
+			em.close();
+		}
+
+		return libros;
 	}
 
 }

@@ -7,14 +7,15 @@
 <title>Insert title here</title>
 </head>
 <body>
-	Hello world!
+	Registrar Libro
 
 	<form method="post"
 		action="http://localhost:8080/CrudRestWeb1/rest/crudLibroRest/registrarLibro">
 
-		<input type="text" name="txtAutor">
-		 <input type="text" name="txtTitulo">
-		 <input type="text" name="txtStock">
+		<label for="name" >Autor <input id ="name" type="text" name="txtAutor"></label>
+		
+		 <label >Titulo<input type="text" name="txtTitulo"></label>
+		 <label >stock <input type="text" name="txtStock"></label>
 		<input type="submit" name="enviar" value="registrar">
 
 	</form>

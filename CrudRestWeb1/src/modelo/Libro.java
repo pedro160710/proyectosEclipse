@@ -10,7 +10,9 @@ import javax.persistence.*;
 @Entity
 @NamedQueries({
 		@NamedQuery(name = "Libro.findAll", query = "SELECT l FROM Libro l"),
-		@NamedQuery(name = "Libro.findByIdLibro", query = "SELECT l FROM Libro l WHERE l.id = :idLibro") })
+		@NamedQuery(name = "Libro.findByIdLibro", query = "SELECT l FROM Libro l WHERE l.id = :idLibro"),
+		@NamedQuery(name = "Libro.findLibros", query = "SELECT l FROM Libro l "),
+		@NamedQuery(name = "Libro.finByTituloLibro", query="SELECT l FROM Libro l WHERE l.titulo = :tituloLibro")})
 public class Libro implements Serializable {
 	private static final long serialVersionUID = 1L;
 

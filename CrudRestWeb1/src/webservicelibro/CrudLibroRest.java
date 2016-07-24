@@ -1,5 +1,7 @@
 package webservicelibro;
 
+import java.util.List;
+
 import javax.ws.rs.Path;
 import javax.ws.rs.Produces;
 import javax.ws.rs.GET;
@@ -19,12 +21,29 @@ public class CrudLibroRest {
 
 	ServicioLibro servicioLibro = new ServicioLibro();
 
-	// CONSULTAR LIBRO
+	// CONSULTAR LIBRO POR ID
 	@GET
 	@Path("consultarLibro")
 	public Libro consultarLibro(@QueryParam("varId") int idLibro) {
 		Libro libro = servicioLibro.findByIdLibro(idLibro);
 		return libro;
+
+	}
+	// CONSULTAR LIBRO POR titulo
+	@GET
+	@Path("consultarLibroTitulo")
+	public Libro consultarLibroTitulo(@QueryParam("varTitulo") String tituloLibro) {
+		Libro libro = servicioLibro.findByTituloLibro(tituloLibro);
+		return libro;
+
+	}
+
+	// CONSULTAR LIBROs
+	@GET
+	@Path("consultarLibros")
+	public List<Libro> consultarLibro() {
+		List<Libro> libros = servicioLibro.findLibros();
+		return libros;
 
 	}
 
@@ -47,6 +66,7 @@ public class CrudLibroRest {
 			@PathParam("varStock") int stock) {
 		Libro libro = new Libro(id, autor, titulo, stock);
 		servicioLibro.editarLibro(libro);
+		
 		System.out.println("libro actualizado correctamente");
 	}
 

@@ -205,3 +205,13 @@
 
 !ENTRY org.jboss.ide.eclipse.as.core 1 0 2016-07-18 22:59:18.891
 !MESSAGE Module CrudLibroRestMoviles on WildFly 8.x not yet fully deployed. Waiting...
+!SESSION 
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2016-07-23 07:36:05.478
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 0 2016-07-23 07:36:24.721
+!MESSAGE Module CrudRestWeb1 on WildFly 8.x not yet fully deployed. Waiting...
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2016-07-23 07:36:24.846
+!MESSAGE Server Startup Succeeded

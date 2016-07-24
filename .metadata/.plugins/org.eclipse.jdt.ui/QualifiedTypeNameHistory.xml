@@ -26,7 +26,6 @@
 <fullyQualifiedTypeName name="javax.persistence.EntityManager"/>
 <fullyQualifiedTypeName name="javax.persistence.PersistenceContext"/>
 <fullyQualifiedTypeName name="javax.ws.rs.Consumes"/>
-<fullyQualifiedTypeName name="java.util.List"/>
 <fullyQualifiedTypeName name="com.mysql.jdbc.PreparedStatement"/>
 <fullyQualifiedTypeName name="javax.ws.rs.core.Application"/>
 <fullyQualifiedTypeName name="conexion.ConexionBaseDatos"/>
@@ -34,4 +33,5 @@
 <fullyQualifiedTypeName name="crudLibro.crudLibro"/>
 <fullyQualifiedTypeName name="entidad.Libro"/>
 <fullyQualifiedTypeName name="crudLibro.CrudLibro"/>
+<fullyQualifiedTypeName name="java.util.List"/>
 </qualifiedTypeNameHistroy>
