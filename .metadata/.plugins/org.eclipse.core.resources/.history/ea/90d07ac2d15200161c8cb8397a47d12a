@@ -1,0 +1,2 @@
+//generalmente se crea un controlador por pantalla
+var app= angular.module("moduloAplicacion");

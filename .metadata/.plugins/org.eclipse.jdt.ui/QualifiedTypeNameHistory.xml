@@ -14,7 +14,6 @@
 <fullyQualifiedTypeName name="javax.ws.rs.QueryParam"/>
 <fullyQualifiedTypeName name="java.sql.Connection"/>
 <fullyQualifiedTypeName name="java.sql.DriverManager"/>
-<fullyQualifiedTypeName name="java.util.ArrayList"/>
 <fullyQualifiedTypeName name="java.sql.ResultSet"/>
 <fullyQualifiedTypeName name="modelo.Libro"/>
 <fullyQualifiedTypeName name="com.sun.xml.internal.txw2.Document"/>
@@ -34,4 +33,7 @@
 <fullyQualifiedTypeName name="entidad.Libro"/>
 <fullyQualifiedTypeName name="crudLibro.CrudLibro"/>
 <fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="java.lang.System"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="java.util.Arrays"/>
 </qualifiedTypeNameHistroy>

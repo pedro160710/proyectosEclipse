@@ -1,0 +1,17 @@
+var app = angular.module("moduloAplicacion");
+// aqui colocar lal logica de invocacion a servicios REST y cargar valores al controlador
+app.service("adminLibroSrv",function($http){
+	this.buscarLibro= function(tituloLibro,exito,error){
+		$http.get("http://localhost:8080/CrudRestWeb1/rest/crudLibroRest/consultarLibroTitulo?varTitulo="+tituloLibro)
+		.then(
+				function(response){
+					exito(response.data);
+				},function(response){
+					exito(response.statusText);
+				}
+
+			);
+		console.log('funcion buscar Libro**');
+	};
+
+});

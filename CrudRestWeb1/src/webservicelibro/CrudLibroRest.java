@@ -1,5 +1,6 @@
 package webservicelibro;
 
+import java.util.Arrays;
 import java.util.List;
 
 import javax.ws.rs.Path;
@@ -37,6 +38,14 @@ public class CrudLibroRest {
 		return libro;
 
 	}
+	// CONSULTAR LIBRO POR titulo
+	@GET
+	@Path("consultarLibroTituloLista")
+	public List<Libro> consultarLibroTituloLista(@QueryParam("varTitulo") String tituloLibro) {
+		List<Libro>  libro = servicioLibro.findByTituloLibroLista(tituloLibro);
+		return libro;
+
+	}
 
 	// CONSULTAR LIBROs
 	@GET
@@ -56,8 +65,30 @@ public class CrudLibroRest {
 		servicioLibro.crearLibro(nuevoLibro);
 		System.out.println("Libro creado successfully");
 	}
+	/**
+	 * actualizar con Post
+	 * @param autor
+	 * @param titulo
+	 * @param stock
+	 */
+	@POST
+	@Path("actualizarLibro")
+	public String registrarLibro(@FormParam("id") int id, 
+			@FormParam("titulo") String titulo, 
+			@FormParam("autor") String autor, 
+			@FormParam("stock") int stock) {
+		Libro libro = new Libro();
+		libro.setId(id);
+		libro.setTitulo(titulo);
+		libro.setAutor(autor);
+		libro.setStock(stock);
+		System.out.println("****************"+titulo+" "+autor+" "+stock);
+		String mensaje = servicioLibro.actualizarLibro(libro);
+		System.out.println(mensaje);
+		return mensaje;
+	}
 
-	// ACTUALIZAR LIBRO
+	// ACTUALIZAR LIBRO con PathParam
 	@GET
 	@Path("actualizarLibro/id/{varId}/autor/{varAutor}/titulo/{varTitulo}/stock/{varStock}")
 	public void ActualizarLibro(@PathParam("varId") int id,

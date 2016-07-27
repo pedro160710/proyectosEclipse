@@ -1,0 +1,20 @@
+//generalmente se crea un controlador por pantalla
+var app= angular.module("moduloAplicacion");
+app.controller("editarLibrosCtrl", function($scope, adminLibroSrv){
+	
+	
+	
+	
+	$scope.libro={
+			id:'',
+			titulo:'',
+			autor:'',
+			stock:0
+	}
+//	para enviar un objeto JSON, solo enviar un objeto JSON
+	$scope.actualizar= function (){
+		adminLibroSrv.actualizarLibro();
+		
+	}
+	
+});

@@ -1,0 +1,24 @@
+var app= angular.module("moduloAplicacion");
+app.controller('miControlador', function($scope,adminLibroSrv){
+	$scope.valorDeBusqueda="";
+
+// aqui llamar lasfunciones que se van a invocar como callback en el metodo then
+	$scope.buscarLibro = function(){
+			adminLibroSrv.buscarLibro($scope.valorDeBusqueda, 
+					function(response){
+				console.log("libros escontrados"+response.data);
+				$scope.libros= response;
+			}, function(response){
+				$scope.error= response.statusText;
+			});
+	};
+
+
+	// $scope.division=function(varA, varB){
+	// 	$q(function(exito, error ){
+
+
+	// 	});
+	// };
+
+});

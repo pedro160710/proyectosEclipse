@@ -2,21 +2,20 @@
 <section name="Workbench">
 	<section name="CleanDialogSettings">
 		<item value="500" key="DIALOG_WIDTH"/>
+		<item value="true" key="BUILD_ALL"/>
 		<item value="true" key="TOGGLE_SELECTED"/>
-		<item value="378" key="DIALOG_HEIGHT"/>
+		<item value="441" key="DIALOG_HEIGHT"/>
 		<item value="433" key="DIALOG_X_ORIGIN"/>
 		<item value="112" key="DIALOG_Y_ORIGIN"/>
+		<item value="true" key="BUILD_NOW"/>
 	</section>
 	<section name="ExternalProjectImportWizard">
 		<item value="false" key="WizardProjectsImportPage.STORE_NESTED_PROJECTS"/>
 		<item value="false" key="WizardProjectsImportPage.STORE_COPY_PROJECT_ID"/>
 		<item value="false" key="WizardProjectsImportPage.STORE_ARCHIVE_SELECTED"/>
 		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
-			<item value="C:\Users\PedroW10\Downloads\TestFitnesse-master"/>
-			<item value="C:\Users\PedroW10\Downloads\TestFitnesse-master\TestFitnesse-master"/>
-			<item value="C:\proyectosEclipseGit\ProjectWeb"/>
-			<item value="C:\proyectosEclipse\Archivo comprimido\SoapCrud"/>
-			<item value="C:\proyectosEclipse\Archivo comprimido\JPADeber"/>
+			<item value="C:\proyectosAngularGit\ProjectWeb-develop"/>
+			<item value="C:\proyectosEclipseGit"/>
 		</list>
 		<list key="WizardProjectsImportPage.STORE_ARCHIVES">
 			<item value=""/>

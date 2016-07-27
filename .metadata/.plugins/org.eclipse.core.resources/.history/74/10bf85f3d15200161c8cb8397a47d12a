@@ -1,0 +1,8 @@
+//generalmente se crea un controlador por pantalla
+var app= angular.module("moduloAplicacion");
+app.controller("editarLibrosCtrl", function($scope, adminLibroSrv){
+	
+	
+	$scope.guardar= function
+	
+});
