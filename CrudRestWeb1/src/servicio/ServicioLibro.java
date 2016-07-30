@@ -158,7 +158,11 @@ public class ServicioLibro {
 
 		return libroEncontrado;
 	}
-	
+	/**
+	 * Actualizar libro
+	 * @param libro
+	 * @return
+	 */
 	public String actualizarLibro(Libro libro){
 		EntityManager em= emf.createEntityManager();
 		String mensaje;

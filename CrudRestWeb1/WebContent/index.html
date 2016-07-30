@@ -16,18 +16,18 @@
   </div>
   <table id="valorDeBusqueda">
     <thead>
-      <td>ID</td>
-      <td>Titulo</td>
-      <td>Autor</td>
+      <td><a href ng-click="criterioOrden='id'">ID</a></td>
+      <td><a href ng-click="criterioOrden='titulo'"> Titulo</a></td>
+      <td><a href ng-click="criterioOrden='autor'">Autor</a></td>
       <td>Editar</td>
     </thead>
     <tbody>
-      <tr ng-repeat="libro in libros ">
+      <tr ng-repeat="libro in libros |orderBy:criterioOrden ">
         <td>{{libro.id}} </td>
         <td>{{libro.titulo}}</td>
         <td>{{libro.autor}}</td>
         <td>
-          <a href="editarLibro/id?={{libro.id}}">Editar</a>
+          <a href="editarLibro.html?id={{libro.id}}}">Editar</a>
         </td>
       </tr>
     </tbody>

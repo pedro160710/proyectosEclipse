@@ -12,6 +12,7 @@
   </head>
   <body ng-app="moduloAplicacion" ng-controller="editarLibrosCtrl">
     <form name="formularioDeEdicion" method="POST">
+    {{params1}}
       <div class="">
         <label>ID</label>
         <input type="text" name="id" disabled required ng-model="libro.id">
@@ -32,10 +33,6 @@
         <input type="number" name="stock" ng-model="libro.stock" min="1" required>
       </div>
 
-      <div class="">
-        <label>Email</label>
-        <input type="email" name="email" ng-model="email" required>
-      </div>
 
       <!-- <input type="submit" value="Actualizar"> -->
       <button ng-click="actualizar()"> Actualizar</button>

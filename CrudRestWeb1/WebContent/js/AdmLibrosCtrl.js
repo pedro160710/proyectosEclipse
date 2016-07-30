@@ -1,7 +1,8 @@
 var app= angular.module("moduloAplicacion");
 app.controller('miControlador', function($scope,adminLibroSrv){
 	$scope.valorDeBusqueda="";
-	$scope.error;
+	$scope.errorMsg="Resultado";
+	$scope.criterioOrden="id";
 
 // aqui llamar lasfunciones que se van a invocar como callback en el metodo then
 	$scope.buscarLibro = function(){

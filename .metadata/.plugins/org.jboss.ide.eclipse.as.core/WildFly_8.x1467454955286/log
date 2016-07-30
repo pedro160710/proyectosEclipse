@@ -320,3 +320,16 @@
 
 !ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2016-07-27 11:41:30.177
 !MESSAGE Server Startup Succeeded
+!SESSION 
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2016-07-30 08:14:25.224
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 0 2016-07-30 08:14:38.893
+!MESSAGE Module CrudRestWeb1 on WildFly 8.x not yet fully deployed. Waiting...
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2016-07-30 08:14:38.893
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 0 2016-07-30 09:03:44.299
+!MESSAGE Module PreubaRuteo on WildFly 8.x not yet fully deployed. Waiting...
